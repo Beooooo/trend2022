@@ -1,0 +1,28 @@
+ html,
+ body {
+     height: 100%;
+     padding: 0;
+     margin: 0;
+     background: #000;
+ }
+
+ canvas {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+ }
+
+ .image-em img {
+     width: 100%;
+     border-radius: 50%;
+     box-shadow: 0px 0px 30px 0px #e57dac;
+ }
+
+ .image-em {
+     width: 150px;
+     height: 150px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+ }
